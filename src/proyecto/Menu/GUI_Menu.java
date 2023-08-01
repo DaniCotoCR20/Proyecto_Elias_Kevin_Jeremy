@@ -116,7 +116,8 @@ public class GUI_Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-      musica = java.applet.Applet.newAudioClip(getClass().getResource("/Music/Zelda.wav")); 
+      musica = java.applet.Applet.newAudioClip(getClass().getResource
+        ("Zelda.wav")); 
        musica.play();
     }//GEN-LAST:event_jButton1ActionPerformed
 
