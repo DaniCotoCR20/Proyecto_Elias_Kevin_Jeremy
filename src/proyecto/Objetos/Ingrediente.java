@@ -45,6 +45,13 @@ public class Ingrediente {
     public void setAgregado(boolean agregado) {
         this.agregado = agregado;
     }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
+    
+    
     
     
     
