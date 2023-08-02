@@ -28,6 +28,22 @@ public class Pila_ingredienteAgregado {
 
         }
         largo++;
+        
     }
+    //Creacion del metodo mostrar pila//
+   public String mostrarPila() {
+        String mensaje = "";
+        NodoPila_ingredienteAgregado aux = cima;
 
-}
+        while (aux != null) {
+            mensaje = mensaje + aux.getIngrediente() + " -- ";
+            aux = aux.getSiguiente();
+        }
+
+        return mensaje;
+    }
+    }
+    
+
+  
+
