@@ -33,7 +33,6 @@ public class Ingrediente {
     }
     
     //Set Atributos
-
     public void setId(int id) {
         this.id = id;
     }
@@ -46,6 +45,7 @@ public class Ingrediente {
         this.agregado = agregado;
     }
 
+    //ToString
     @Override
     public String toString() {
         return nombre;
