@@ -52,6 +52,14 @@ public class Jugador {
         this.password = password;
     }
 
+   //Creacion del toString//
+    
+    @Override
+    public String toString() {
+        return "Jugador{" + "id=" + id + ", puntos=" + puntos 
+                + ", record=" + record + ", password=" + password + '}';
+    }
+
     
     
     
