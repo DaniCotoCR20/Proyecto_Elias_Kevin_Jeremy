@@ -1,23 +1,23 @@
 
 package Estructura_Orden;
 
-import proyecto.Objetos.orden;
+import proyecto.Objetos.Orden;
 
 public class NodoCola_Orden_Finalizada {
 
     //Atributos 
-    private orden Orden;
+    private Orden Orden;
     private NodoCola_Orden_Finalizada atras;
 
     //Constructor
-    public NodoCola_Orden_Finalizada(orden Orden, 
+    public NodoCola_Orden_Finalizada(Orden Orden, 
             NodoCola_Orden_Finalizada atras) {
         this.Orden = Orden;
         this.atras = atras;
     }
 
     //Getters
-    public orden getOrden() {
+    public Orden getOrden() {
         return Orden;
     }
     public NodoCola_Orden_Finalizada getAtras() {
@@ -25,7 +25,7 @@ public class NodoCola_Orden_Finalizada {
     }
     
     //Setters
-    public void setOrden(orden Orden) {
+    public void setOrden(Orden Orden) {
         this.Orden = Orden;
     }
     public void setAtras(NodoCola_Orden_Finalizada atras) {

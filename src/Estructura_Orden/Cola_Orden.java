@@ -1,5 +1,7 @@
 package Estructura_Orden;
 
+import proyecto.Objetos.Orden;
+
 public class Cola_Orden {
 
     //Creacion de la clase orden y sus atributos//
@@ -18,101 +20,101 @@ public class Cola_Orden {
     }
 
     //Creacion del metodo encolar una orden//
-//     public void encola(Orden orden) {
-//
-//        NodoCola_Orden newNodo = new NodoCola_Orden();
-//        newNodo.setOrden(orden);
-//
-//        if (Vacia()) {
-//            frente = newNodo;
-//            ultimo = newNodo;
-//        } else {
-//            ultimo.setAtras(newNodo);
-//            ultimo = newNodo;
-//        }
-//        largo++;
-//
-//    }
+     public void encola(Orden orden) {
+
+        NodoCola_Orden newNodo = new NodoCola_Orden();
+        newNodo.setOrden(orden);
+
+        if (Vacia()) {
+            frente = newNodo;
+            ultimo = newNodo;
+        } else {
+            ultimo.setAtras(newNodo);
+            ultimo = newNodo;
+        }
+        largo++;
+
+    }
 //    
     //Creacion del metodo que vacia la cola//
-// public void VaciarCola() {
-//        while (tamanio() != 0) {
-//            atiendeOrden();
-//        }
-//    }
+ public void VaciarCola() {
+        while (tamanio() != 0) {
+            atiendeOrden();
+        }
+    }
    
     
     //Creacion de metodo buscar una orden//
     
     
-//    public boolean search(int id) {
-//        // Crea una copia de la cola.
-//        NodoCola_Orden aux = frente;
-//        // Bandera para verificar si exist el elemento a search.
-//        boolean exist = false;
-//        // Recorre la pila hasta llegar encontrar el node o llegar al final
-//        // de la pila.
-//        while (exist != true && aux != null) {
-//            // Compara si el value del node es igual que al de referencia.
-//            if (id == aux.getOrden().getId()) {
-//                // Cambia el value de la bandera.
-//                exist = true;
-//            } else {
-//                // Avanza al siguiente node.
-//                aux = aux.getAtras();
-//            }
-//        }
-//        // Retorna el value de la bandera.
-//        return exist;
-//    }
+    public boolean search(int id) {
+        // Crea una copia de la cola.
+        NodoCola_Orden aux = frente;
+        // Bandera para verificar si exist el elemento a search.
+        boolean exist = false;
+        // Recorre la pila hasta llegar encontrar el node o llegar al final
+        // de la pila.
+        while (exist != true && aux != null) {
+            // Compara si el value del node es igual que al de referencia.
+            if (id == aux.getOrden().getId()) {
+                // Cambia el value de la bandera.
+                exist = true;
+            } else {
+                // Avanza al siguiente node.
+                aux = aux.getAtras();
+            }
+        }
+        // Retorna el value de la bandera.
+        return exist;
+    }
 
     
 
         //Creacion del metodo atiende la orden//
 
-//    public Orden atiendeOrden() {
-//        NodoCola_Orden aux = frente;
-//        Orden orden = aux.getOrden();
-//        if (frente != null) {
-//            frente = frente.getAtras();
-//            aux.setAtras(null);
-//            largo--;
-//        }
-//        return orden;
-//    }
+    public Orden atiendeOrden() {
+        NodoCola_Orden aux = frente;
+        Orden orden = aux.getOrden();
+        if (frente != null) {
+            frente = frente.getAtras();
+            aux.setAtras(null);
+            largo--;
+        }
+        return orden;
+    }
     
     
     //Metodo que extrae la orden//
     
-//    public Orden extraeOrden() {
-//        NodoCola_Orden aux = frente;
-//        Orden orden = aux.getOrden();
-//
-//        return orden;
+    public Orden extraeOrden() {
+        NodoCola_Orden aux = frente;
+        Orden orden = aux.getOrden();
+
+        return orden;
     }
     
     
     //Creacion del String que me muestra la cola en pantalla y retorna el mensaje//
    
     
-//    public String mostrar_cola() {
-//        String mensaje = "";
-//        if (Vacia()) {
-//            mensaje = "";
-//        } else {
-//
-//            if (!Vacia()) {
-//
-//                NodoCola_Orden aux = frente;
-//                while (aux != null) {
-//                    mensaje = mensaje + aux.getOrden() + "\n\n";
-//                    aux = aux.getAtras();
-//                }
-//            }
-//        }
-//        return mensaje;
-//   }
-    
+    public String mostrar_cola() {
+        String mensaje = "";
+        if (Vacia()) {
+            mensaje = "";
+        } else {
+
+            if (!Vacia()) {
+
+                NodoCola_Orden aux = frente;
+                while (aux != null) {
+                    mensaje = mensaje + aux.getOrden() + "\n\n";
+                    aux = aux.getAtras();
+                }
+            }
+        }
+        return mensaje;
+   }
+} 
     
     
     
