@@ -57,10 +57,15 @@ public class orden {
         this.finalizada = finalizada;
     }
 
-    
+    @Override
+    public String toString() {
+        return "orden{" + "id=" + id + ", hamburguesa=" + hamburguesa + 
+                ", pila_ingredienteAgregado=" + pila_ingredienteAgregado + ", "
+                + "finalizada=" + finalizada + '}';
     }
     
     
             
     
            
+}
