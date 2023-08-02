@@ -42,6 +42,13 @@ public class Hamburguesa {
     public void setPuntos(int puntos) {
         this.puntos = puntos;
     }
+
+    //Creacion del toString//
+    
+    @Override
+    public String toString() {
+        return "Hamburguesa{" + "tipo=" + tipo + ", pila_ingredientes=" + pila_ingredientes + ", puntos=" + puntos + '}';
+    }
     
     
     
