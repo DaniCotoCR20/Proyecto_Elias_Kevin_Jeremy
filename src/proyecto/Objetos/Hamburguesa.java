@@ -1,24 +1,21 @@
-
 package proyecto.Objetos;
 
+import Estructura_Pila_Ingredientes.Pila_Ingrediente;
 
 public class Hamburguesa {
-   
+
     //Creacion hamburguesa//
-  
     private String tipo;
     private Pila_Ingrediente pila_ingredientes = new Pila_Ingrediente();
     private int puntos;
 
     //Creacion del constructor lleno//
-    
     public Hamburguesa(String tipo, int puntos) {
         this.tipo = tipo;
         this.puntos = puntos;
     }
 
     //Creacion de getts and setters//
-    
     public String getTipo() {
         return tipo;
     }
@@ -44,14 +41,9 @@ public class Hamburguesa {
     }
 
     //Creacion del toString//
-    
     @Override
     public String toString() {
         return "Hamburguesa{" + "tipo=" + tipo + ", pila_ingredientes=" + pila_ingredientes + ", puntos=" + puntos + '}';
     }
-    
-    
-    
 
-    
 }
