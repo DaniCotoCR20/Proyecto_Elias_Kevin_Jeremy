@@ -24,6 +24,14 @@ public class NodoCola_Orden_Finalizada {
         return atras;
     }
     
+    //Setters
+    public void setOrden(orden Orden) {
+        this.Orden = Orden;
+    }
+    public void setAtras(NodoCola_Orden_Finalizada atras) {
+        this.atras = atras;
+    }
+    
     
     
     
