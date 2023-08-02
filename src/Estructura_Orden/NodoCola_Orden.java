@@ -13,4 +13,13 @@ public class NodoCola_Orden {
        this.Orden = null;
        this.atras = null;
    }
+   
+   //Creacion de gets
+    public orden getOrden() {
+        return Orden;
+    }
+    public NodoCola_Orden getAtras() {
+        return atras;
+    }
+   
 }
