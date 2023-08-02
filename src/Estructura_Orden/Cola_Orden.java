@@ -34,4 +34,11 @@ public class Cola_Orden {
 //
 //    }
 //    
+    //Creacion del metodo que vacia la cola//
+
+// public void VaciarCola() {
+//        while (tamanio() != 0) {
+//            atiendeOrden();
+//        }
+//    }
 }
