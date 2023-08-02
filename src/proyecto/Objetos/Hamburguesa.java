@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package proyecto.Objetos;
 
-/**
- *
- * @author jerem
- */
+
 public class Hamburguesa {
-    //creacion de clase hamburguesa
+   
+    //Creacion hamburguesa//
+  
+    private String tipo;
+    private Pila_Ingrediente pila_ingredientes = new Pila_Ingrediente();
+    private int puntos;
+
+    //Creacion del constructor lleno//
+    
+    public Hamburguesa(String tipo, int puntos) {
+        this.tipo = tipo;
+        this.puntos = puntos;
+    }
+    
+    
+
+    
 }
