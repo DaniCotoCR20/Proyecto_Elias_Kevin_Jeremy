@@ -8,4 +8,9 @@ public class NodoCola_Orden {
    private orden Orden;
    private NodoCola_Orden atras;
    
+   //Creacion de metodos Constructores.
+   public NodoCola_Orden(){
+       this.Orden = null;
+       this.atras = null;
+   }
 }
