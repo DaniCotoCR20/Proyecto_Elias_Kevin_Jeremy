@@ -1,10 +1,11 @@
 
 package Estructura_Orden;
 
-/**
- *
- * @author Kevin
- */
+import proyecto.Objetos.orden;
+
 public class NodoCola_Orden_Finalizada {
-    
+
+    //Atributos 
+    private orden Orden;
+    private NodoCola_Orden_Finalizada atras;
 }

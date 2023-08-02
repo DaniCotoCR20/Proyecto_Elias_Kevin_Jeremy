@@ -30,5 +30,6 @@ public class NodoCola_Orden {
         this.atras = atras;
     }
     
+    
    
 }
