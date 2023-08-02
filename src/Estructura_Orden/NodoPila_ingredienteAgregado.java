@@ -9,10 +9,13 @@ public class NodoPila_ingredienteAgregado {
     private Ingrediente ingrediente;
     private NodoPila_ingredienteAgregado siguiente;
 
-    public NodoPila_ingredienteAgregado(Ingrediente ingrediente, NodoPila_ingredienteAgregado siguiente) {
+    public NodoPila_ingredienteAgregado(Ingrediente ingrediente, 
+            NodoPila_ingredienteAgregado siguiente) {
         this.ingrediente = null;
         this.siguiente = null;
+        
     }
+    //creacion de metodo gets and setter//
 
     public Ingrediente getIngrediente() {
         return ingrediente;
