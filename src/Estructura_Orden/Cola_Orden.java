@@ -35,10 +35,35 @@ public class Cola_Orden {
 //    }
 //    
     //Creacion del metodo que vacia la cola//
-
 // public void VaciarCola() {
 //        while (tamanio() != 0) {
 //            atiendeOrden();
 //        }
 //    }
+   
+    
+    //Creacion de metodo bsucar una orden//
+    
+    
+//    public boolean search(int id) {
+//        // Crea una copia de la cola.
+//        NodoCola_Orden aux = frente;
+//        // Bandera para verificar si exist el elemento a search.
+//        boolean exist = false;
+//        // Recorre la pila hasta llegar encontrar el node o llegar al final
+//        // de la pila.
+//        while (exist != true && aux != null) {
+//            // Compara si el value del node es igual que al de referencia.
+//            if (id == aux.getOrden().getId()) {
+//                // Cambia el value de la bandera.
+//                exist = true;
+//            } else {
+//                // Avanza al siguiente node.
+//                aux = aux.getAtras();
+//            }
+//        }
+//        // Retorna el value de la bandera.
+//        return exist;
+//    }
+
 }
