@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Estructura_Orden;
 
-/**
- *
- * @author Kevin
- */
+import proyecto.Objetos.Ingrediente;
+
+ //Creacion de los atributos de la clase Nodo pila ingrediente Agg//
 public class NodoPila_ingredienteAgregado {
+    
+    private Ingrediente ingrediente;
+    private NodoPila_ingredienteAgregado siguiente;
+    
+  
     
 }
