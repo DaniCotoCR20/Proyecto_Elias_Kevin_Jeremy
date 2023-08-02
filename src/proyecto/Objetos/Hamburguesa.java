@@ -46,4 +46,6 @@ public class Hamburguesa {
         return "Hamburguesa{" + "tipo=" + tipo + ", pila_ingredientes=" + pila_ingredientes + ", puntos=" + puntos + '}';
     }
 
+    
+    
 }
