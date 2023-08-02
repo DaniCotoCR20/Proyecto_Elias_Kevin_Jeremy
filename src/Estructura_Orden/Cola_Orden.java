@@ -42,7 +42,7 @@ public class Cola_Orden {
 //    }
    
     
-    //Creacion de metodo bsucar una orden//
+    //Creacion de metodo buscar una orden//
     
     
 //    public boolean search(int id) {
@@ -66,4 +66,22 @@ public class Cola_Orden {
 //        return exist;
 //    }
 
+    
+
+        //Creacion del metodo atiende la orden//
+
+//    public Orden atiendeOrden() {
+//        NodoCola_Orden aux = frente;
+//        Orden orden = aux.getOrden();
+//        if (frente != null) {
+//            frente = frente.getAtras();
+//            aux.setAtras(null);
+//            largo--;
+//        }
+//        return orden;
+//    }
+    
+    
+    
+    
 }
