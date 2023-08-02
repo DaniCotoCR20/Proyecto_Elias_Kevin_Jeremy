@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Estructura_Orden;
 
-/**
- *
- * @author Kevin
- */
+
 public class Pila_ingredienteAgregado {
+    
+    private NodoPila_ingredienteAgregado cima;
+    private int largo;
+    
+    
+    public boolean Vacia(){
+        return cima == null;
+        
+    }
+
+    public int tamanio(){
+    return this.largo;
+}
+
+    
     
 }
