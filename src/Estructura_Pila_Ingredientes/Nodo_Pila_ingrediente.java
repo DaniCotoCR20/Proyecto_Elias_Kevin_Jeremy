@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Estructura_Pila_Ingredientes;
 
-/**
- *
- * @author Kevin
- */
+import proyecto.Objetos.Ingrediente;
+
+//Atributos y constructor//
 public class Nodo_Pila_ingrediente {
     
+    private Ingrediente ingrediente;
+    private Nodo_Pila_ingrediente siguiente;
+
+    public Nodo_Pila_ingrediente(Ingrediente ingrediente, Nodo_Pila_ingrediente siguiente) {
+        this.ingrediente = null;
+        this.siguiente = null;
+    }
+    
+  
 }
