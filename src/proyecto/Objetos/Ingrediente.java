@@ -19,5 +19,19 @@ public class Ingrediente {
         this.agregado=false;
     }
     
+  //Get Atributos
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public boolean isAgregado() {
+        return agregado;
+    }
+    
+    
     
 }
