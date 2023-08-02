@@ -21,5 +21,14 @@ public class NodoCola_Orden {
     public NodoCola_Orden getAtras() {
         return atras;
     }
+    
+    //Creacion de setters
+    public void setOrden(orden Orden) {
+        this.Orden = Orden;
+    }
+    public void setAtras(NodoCola_Orden atras) {
+        this.atras = atras;
+    }
+    
    
 }
