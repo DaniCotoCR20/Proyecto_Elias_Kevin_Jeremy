@@ -17,6 +17,10 @@ public class NodoPila_ingredienteAgregado {
     }
     //creacion de metodo gets and setter//
 
+    NodoPila_ingredienteAgregado() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public Ingrediente getIngrediente() {
         return ingrediente;
     }
